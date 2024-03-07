@@ -1,0 +1,16 @@
+{
+  "name": "payments-ecommerces-observer-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
+  },
+  "author": "welingtoncassis",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

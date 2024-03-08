@@ -13,3 +13,6 @@ paymentSubject.subscribe(shipment);
 
 const payment = new Payment(paymentSubject);
 payment.creditCard({ id: 1, userName: 'Welington Assis', age: 30 });
+
+paymentSubject.unsubscribe(marketing);
+payment.creditCard({ id: 2, userName: 'John Doe', age: 30 });
